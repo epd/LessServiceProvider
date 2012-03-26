@@ -10,7 +10,7 @@ namespace evNN\Silex\Less;
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 
-class LessServiceProvier implements ServiceProviderInterface
+class LessServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
