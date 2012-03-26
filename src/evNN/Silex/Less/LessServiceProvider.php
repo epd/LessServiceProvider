@@ -7,7 +7,7 @@
 
 namespace evNN\Silex\Less;
 
-use Silex\Application
+use Silex\Application;
 use Silex\ServiceProviderInterface;
 
 class LessServiceProvier implements ServiceProviderInterface
