@@ -1,0 +1,11 @@
+{
+    "name": "evNN/less-service-provider",
+    "type": "library",
+    "description":  "LESS service provider for the Silex µframwork.",
+    "keywords": ["css", "less", "silex"],
+    "homepage": "https://github.com/evNN/LessServiceProvider",
+    "license":  "MIT",
+    "authors":  [ { "name": "Evan Dudla", "email": "me@evandudla.com", "homepage": "http://evandudla.com" } ],
+    "require": { "php": ">=5.3.0", "cypresslab/less-elephant": "dev-master" },
+    "autoload": { "psr-0": { "evNN\\Silex": "src" } }
+}
