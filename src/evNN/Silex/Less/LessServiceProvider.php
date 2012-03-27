@@ -14,5 +14,9 @@ class LessServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
+        $app['less'] = $app->share(function() use($app)
+        {
+            return new LessElephant\LessProject($app['less.less_dir'], $app['less.app_less'], $app['less.app_css']);
+        });
     }
 }
