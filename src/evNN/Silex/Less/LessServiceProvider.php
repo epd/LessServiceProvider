@@ -9,6 +9,7 @@ namespace evNN\Silex\Less;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
+use LessElephant;
 
 class LessServiceProvider implements ServiceProviderInterface
 {
