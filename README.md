@@ -26,4 +26,6 @@ You must add the following to register the namespaces for both the `LessElephant
 ``` php
 $app['autoloader']->registerNamespace('evNN', __DIR__ . '/vendor/evNN/less-service-provider/src');
 $app['autoloader']->registerNamespace('LessElephant', __DIR__ . '/vendor/cypresslab/less-elephant/src');
+$app['autoloader']->registerNamespace('Symfony\\Component\\Finder', __DIR__ . '/vendor/symfony/finder');
+$app['autoloader']->registerNamespace('Symfony\\Component\\Process', __DIR__ . '/vendor/symfony/process');
 ```
